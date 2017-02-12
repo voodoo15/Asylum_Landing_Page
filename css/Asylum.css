@@ -102,4 +102,7 @@ section {
   html {
     font-size: 12px;
   }
+  .textSection {
+    padding: 10vh 2em;
+  }
 }
