@@ -60,6 +60,10 @@ section {
     border: 2px solid #fff;
 }
 
+.item img {
+  min-width: 100%;
+}
+
 #footer {
     position: relative;
     color: white;
