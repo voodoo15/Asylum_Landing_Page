@@ -62,7 +62,7 @@ section {
 }
 
 .thumbnail  {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .digitalThumbClassList {
@@ -71,7 +71,7 @@ section {
 }
 
 .thumbnail>img {
-  width: 100%;
+  width: 100% !important;
 }
 
 #footer {

@@ -7,6 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>The Asylum</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="stylesheet" href="css/Asylum.css">
@@ -39,8 +40,9 @@
                             <li><a href="#">Startups</a></li>
                         </ul>
                     </li>
+                    <li><a href="#">hub</a></li>
                     <li><a href="#">teachers</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="#contactSection">contact</a></li>
                 </ul>
             </div>
         </div>
@@ -105,16 +107,16 @@
                             <h3>Digital Media</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <div class="row">
-                              <ul class=" col-md-6 small digitalThumbClassList">
-                                <li>Portfolio Art</li>
-                                <li>Animation</li>
-                                <li>Life Drawing</li>
-                              </ul>
-                              <ul class=" col-md-6 small digitalThumbClassList">
-                                <li>Digital Painting</li>
-                                <li>Perspective Layout</li>
-                                <li>Storyboarding</li>
-                              </ul>
+                                <ul class=" col-md-6 small digitalThumbClassList">
+                                    <li>Portfolio Art</li>
+                                    <li>Animation</li>
+                                    <li>Life Drawing</li>
+                                </ul>
+                                <ul class=" col-md-6 small digitalThumbClassList">
+                                    <li>Digital Painting</li>
+                                    <li>Perspective Layout</li>
+                                    <li>Storyboarding</li>
+                                </ul>
                             </div>
                             <button>Learn More</button>
                         </div>
@@ -154,6 +156,49 @@
             </div>
         </div>
     </section>
+    <!-- Contact Section -->
+    <div id="contactSection">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Contact Us</h2>
+                <hr>
+            </div>
+            <div class="col-md-4">
+                <h4>Contact info</h4>
+                <div class="space"></div>
+                <p><i class="fa fa-map-marker"></i>Yonge &amp; Sheppard<br />North York, Ontario</p>
+                <div class="space"></div>
+                <p><i class="fa fa-envelope-o"></i>ricky.wong111@gmail.com</p>
+                <div class="space"></div>
+                <p><i class="fa fa-phone"></i>(647)892-7890</p>
+            </div>
+            <div class="col-md-8">
+                <h4>Leave us a message</h4>
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-default">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <section id="footer">
         <div class="container">
             <div class="row">
@@ -173,6 +218,7 @@
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/contact_me.js"></script>
     <script src="/js/Asylum.js"></script>
 </body>
 
