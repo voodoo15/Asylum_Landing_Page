@@ -61,6 +61,19 @@ section {
   min-width: 100%;
 }
 
+.thumbnail  {
+  padding: 0;
+}
+
+.digitalThumbClassList {
+  width: 45%;
+  padding-left: 3em;
+}
+
+.thumbnail>img {
+  width: 100%;
+}
+
 #footer {
     position: relative;
     color: white;
@@ -97,7 +110,7 @@ section {
 
 @media (max-width: 800px) {
   body {
-    font-size: 24px;
+    font-size: 18px;
   }
   .textSection {
     padding: 10vh 2em;
