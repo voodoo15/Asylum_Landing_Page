@@ -1,10 +1,97 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
 html {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 16px;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav {
+    z-index: 9999;
+    opacity: 0.5;
+    border-radius: 0 !important;
+}
+
+.heroBg {
+    background: url("/img/ws_Guild_Wars_2_Concept_Art_1920x1200.jpg") no-repeat center center;
+    width: auto;
+    height: 100vh;
+    /* same height as jumbotron*/
+}
+
+.navbar-default {
+  margin: 0;
+}
+
+.jumbotron {
+    height: 100vh;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    background: transparent;
+    display: block;
+    margin: 0;
+}
+
+section {
+  min-height: 50vh;
+}
+
+.joinToday a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 65px;
+    /* fallback color */
+    background: brown;
+    position: relative;
+    display: block;
+    top: 50vh;
+    float: right;
+    width: 10em;
+    height: 10vh;
+    font-size: 2em;
+    border: 2px solid #fff;
+}
+
+#footer {
+    position: relative;
+    color: white;
+    background-color: #3f3f3f;
+    height: 400px;
+    width: 100%;
+}
+
+#footer ul {
+    margin: 1em 0;
+}
+
+#footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 .5em;
+}
+
+#footer a {
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+}
+
+#copyright {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+
+.span12 {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
 }
