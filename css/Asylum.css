@@ -28,6 +28,10 @@ nav {
   padding: 10vh 10em;
 }
 
+#heroSection {
+  padding: 0;
+}
+
 .jumbotron {
     height: 100vh;
     color: white;
@@ -39,6 +43,7 @@ nav {
 
 section {
   min-height: 50vh;
+  padding: 10vh 0;
 }
 
 .joinToday a {
