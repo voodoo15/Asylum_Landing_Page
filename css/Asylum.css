@@ -79,7 +79,7 @@ section {
   width: 100% !important;
 }
 
-#footer {
+footer {
     position: relative;
     color: white;
     background-color: #3f3f3f;
@@ -87,17 +87,17 @@ section {
     width: 100%;
 }
 
-#footer ul {
+footer ul {
     margin: 1em 0;
 }
 
-#footer li {
+footer li {
     list-style: none;
     display: inline-block;
     margin: 0 .5em;
 }
 
-#footer a {
+footer a {
     font-size: 2em;
     color: #fff;
     text-decoration: none;
