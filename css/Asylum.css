@@ -15,11 +15,11 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 #heroSection {
-  background-image: url("../img/IMG_0133.jpg");
+  background-image: url("../img/IMG_0135.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  bacground-size:cover;
+  background-size:cover;
   height: 100vh;
   color: #fff;
   filter: saturate(.5);
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .heroText {
-padding-top:30vh;
+padding-top:40vh;
 line-height:5em;
 }
 
@@ -71,8 +71,8 @@ nav {
   color: #fff !important;
 }
 
-.navbar-default .navbar-brand {
-  color: #fff;
+.navbar-default, .navbar-brand, .navbar-transparent {
+  color: #fff !important;
 }
 
 .textSection {
