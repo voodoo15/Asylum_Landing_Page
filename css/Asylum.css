@@ -177,4 +177,7 @@ footer a {
   section {
     min-height: 0;
   }
+  .heroText{
+    padding-top: 25vh;
+  }
 }
