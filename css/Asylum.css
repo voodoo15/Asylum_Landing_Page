@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, a {
   font-weight: 700;
 }
 
-a:link, a:visited, a:hover {
+a:hover, a:link, a:visited {
   text-decoration: none;
   color: #fff;
 }
@@ -96,15 +96,6 @@ nav {
   padding: 0;
 }
 
-.jumbotron {
-    height: 100vh;
-    color: white;
-    text-shadow: #444 0 1px 1px;
-    background: transparent;
-    display: block;
-    margin: 0;
-}
-
 section {
   min-height: 50vh;
   padding: 10vh 0;
@@ -115,37 +106,8 @@ section {
   color: #fff;
 }
 
-.joinToday a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 0 10px 65px;
-    /* fallback color */
-    background: brown;
-    position: relative;
-    display: block;
-    top: 50vh;
-    float: right;
-    width: 10em;
-    height: 10vh;
-    font-size: 2em;
-    border: 2px solid #fff;
-}
-
-.item img {
-  min-width: 100%;
-}
-
-.thumbnail  {
-  padding: 0 !important;
-}
-
-.digitalThumbClassList {
-  width: 45%;
-  padding-left: 3em;
-}
-
-.thumbnail>img {
-  width: 100% !important;
+.facultyImage {
+  border-radius: 50%;
 }
 
 footer {
