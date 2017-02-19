@@ -14,6 +14,39 @@ h1, h2, h3, h4, h5, h6, a {
   font-weight: 800;
 }
 
+#heroSection {
+  background-image: url("../img/IMG_0133.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  bacground-size:cover;
+  height: 100vh;
+  color: #fff;
+  filter: saturate(.5);
+  text-align: center;
+}
+
+.heroText {
+padding-top:30vh;
+line-height:5em;
+}
+
+.heroHeading {
+  margin: 0;
+  font-size:3em;
+}
+
+.heroSubheading {
+  font-size:1.5em;
+}
+
+.tellMeMore {
+  background-color: #E04006;
+  padding: 2em 5em;
+  border-radius: 3em;
+  color: #fff;
+}
+
 nav {
     z-index: 9999;
     // opacity: 0.5;
@@ -133,10 +166,13 @@ footer a {
 
 @media (max-width: 800px) {
   body {
-    font-size: 18px;
+    font-size: 14px;
   }
   .textSection {
     padding: 10vh 2em;
+  }
+  .heroSubheading {
+    line-height: 2em;
   }
   section {
     min-height: 0;
