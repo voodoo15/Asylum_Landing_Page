@@ -3,15 +3,20 @@
 }
 
 body {
-    font-family: helvetica, sans-serif;
+    font-family: 'Roboto', helvetica, sans-serif;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
     line-height:1.5em;
 }
 
 h1, h2, h3, h4, h5, h6, a {
-  font-family: 'Orbitron', helvetica, sans-serif;
-  font-weight: 800;
+  font-family: 'Orbitron', arial, sans-serif;
+  font-weight: 700;
+}
+
+a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 #heroSection {
@@ -42,7 +47,7 @@ line-height:5em;
 
 .tellMeMore {
   background-color: #E04006;
-  padding: 2em 5em;
+  padding: 1.5em 4em;
   border-radius: 3em;
   color: #fff;
 }
@@ -79,6 +84,10 @@ nav {
   background-color: #fff;
 }
 
+.icon-bar {
+  background-color: #fff;
+}
+
 .textSection {
   padding: 10vh 10em;
 }
@@ -99,6 +108,11 @@ nav {
 section {
   min-height: 50vh;
   padding: 10vh 0;
+}
+
+#aboutUs {
+  background-color: #E04006;
+  color: #fff;
 }
 
 .joinToday a {
@@ -168,7 +182,7 @@ footer a {
   text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   body {
     font-size: 14px;
   }

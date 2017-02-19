@@ -12,21 +12,23 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     }
 });
 
-// NAV CLASS CHANGE
+$(document).ready( () => {
 
-if (screen.width < 800) {
+  // NAV CLASS CHANGE
+  if (screen.width <= 768) {
     $("nav").addClass("navbar-default");
     $("nav").removeClass("navbar-transparent");
-} else {
-  $(window).scroll(function() {
+  } else {
+    $(window).scroll(function() {
       var scroll = $(window).scrollTop();
 
-      if (scroll >= 800) {
-          $("nav").addClass("navbar-default");
-          $("nav").removeClass("navbar-transparent");
+      if (scroll > 600) {
+        $("nav").addClass("navbar-default");
+        $("nav").removeClass("navbar-transparent");
       } else {
-          $("nav").addClass("navbar-transparent");
-          $("nav").removeClass("navbar-default");
+        $("nav").addClass("navbar-transparent");
+        $("nav").removeClass("navbar-default");
       }
-  });
-}
+    });
+  }
+}); // Close $(document).ready()
