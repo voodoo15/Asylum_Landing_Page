@@ -18,18 +18,15 @@ if (screen.width < 800) {
     $("nav").addClass("navbar-default");
     $("nav").removeClass("navbar-transparent");
 } else {
-    $("nav").addClass("navbar-transparent");
-    $("nav").removeClass("navbar-default");
+  $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 800) {
+          $("nav").addClass("navbar-default");
+          $("nav").removeClass("navbar-transparent");
+      } else {
+          $("nav").addClass("navbar-transparent");
+          $("nav").removeClass("navbar-default");
+      }
+  });
 }
-
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 800) {
-        $("nav").addClass("navbar-default");
-        $("nav").removeClass("navbar-transparent");
-    } else {
-        $("nav").addClass("navbar-transparent");
-        $("nav").removeClass("navbar-default");
-    }
-});
