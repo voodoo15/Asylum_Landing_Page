@@ -11,3 +11,16 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     }
   }
 });
+
+// NAV CLASS CHANGE
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 500) {
+        $("nav").addClass("navbar-default");
+        $("nav").removeClass("navbar-transparent");
+    } else {
+      $("nav").addClass("navbar-transparent").fadeIn("slow");
+        $("nav").removeClass("navbar-default");
+    }
+});

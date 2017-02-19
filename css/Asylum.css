@@ -75,6 +75,10 @@ nav {
   color: #fff !important;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
 .textSection {
   padding: 10vh 10em;
 }
