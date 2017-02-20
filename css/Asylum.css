@@ -34,14 +34,7 @@ a:hover, a:link, a:visited {
 
 #heroSection {
   background-image: url("../img/IMG_0135.PNG");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size:cover;
   height: 100vh;
-  color: #fff;
-  /*filter: saturate(.5);*/
-  text-align: center;
 }
 
 .heroText {
@@ -200,6 +193,10 @@ footer a {
   }
   .heroText{
     padding-top: 25vh;
+  }
+  .parallax {
+    background
+    -attachment: scroll;
   }
 
   #copyright {
