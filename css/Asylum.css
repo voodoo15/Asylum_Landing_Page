@@ -15,7 +15,16 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 h1 {
-  margin-bottom: 1em;
+  margin-bottom: 1em !important;
+}
+
+h3 {
+  margin-top: 1em !important;
+}
+
+p {
+  margin: 0 1em;
+  text-align: left;
 }
 
 a:hover, a:link, a:visited {
@@ -84,8 +93,16 @@ nav {
   color: #fff !important;
 }
 
+.navbar-transparent {
+  background-color: rgba(255, 255, 255, .25);
+}
+
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
 }
 
 .icon-bar {
@@ -98,6 +115,10 @@ nav {
 
 #heroSection {
   padding: 0;
+}
+
+.text-center {
+  margin: 0 auto;
 }
 
 section {
@@ -146,7 +167,7 @@ footer a {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   body {
     font-size: 14px;
   }
@@ -161,5 +182,10 @@ footer a {
   }
   .heroText{
     padding-top: 25vh;
+  }
+
+  #copyright {
+    position: inherit;
+    margin-top: 15vh;
   }
 }
