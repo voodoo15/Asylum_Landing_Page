@@ -203,3 +203,9 @@ footer a {
     margin-top: 15vh;
   }
 }
+
+@media (max-width: 320px) {
+  .impactText {
+    font-size: 3em;
+  }
+}
