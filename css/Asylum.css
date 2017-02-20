@@ -35,7 +35,7 @@ a:hover, a:link, a:visited {
 #heroSection {
   background-image: url("../img/IMG_0135.PNG");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size:cover;
   height: 100vh;
@@ -65,17 +65,27 @@ line-height:5em;
   color: #fff;
 }
 
+#parallaxSection {
+  background-image: url("../img/loft.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+  color: #fff;
+  /*filter: saturate(.5);*/
+  text-align: center;
+}
+
+.impactText {
+  margin-top: 10vh;
+  font-size: 4em;
+}
+
 nav {
     z-index: 9999;
     // opacity: 0.5;
     border-radius: 0 !important;
-}
-
-.heroBg {
-    background: url("/img/ws_Guild_Wars_2_Concept_Art_1920x1200.jpg") no-repeat center center;
-    width: auto;
-    height: 100vh;
-    /* same height as jumbotron*/
 }
 
 .navbar-default {
