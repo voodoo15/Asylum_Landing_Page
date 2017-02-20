@@ -195,8 +195,7 @@ footer a {
     padding-top: 25vh;
   }
   .parallax {
-    background
-    -attachment: scroll;
+    background-attachment: scroll;
   }
 
   #copyright {
