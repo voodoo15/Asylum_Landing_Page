@@ -6,81 +6,81 @@ body {
     font-family: 'Roboto', helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
-    line-height:1.5em;
+    line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6, a {
-  font-family: 'Orbitron', arial, sans-serif;
-  font-weight: 700;
+    font-family: 'Orbitron', arial, sans-serif;
+    font-weight: 700;
 }
 
 h1 {
-  margin-bottom: 1em !important;
+    margin-bottom: 1em !important;
 }
 
 h3 {
-  margin-top: 1em !important;
+    margin-top: 1em !important;
 }
 
 p {
-  margin: 0 1em;
-  text-align: left;
+    margin: 0 1em;
+    text-align: left;
 }
 
 a:hover, a:link, a:visited {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 #heroSection {
-  background-image: url("../img/IMG_0135.PNG");
-  height: 100vh;
+    background-image: url("../img/IMG_0135.PNG");
+    height: 100vh;
 }
 
 .heroText {
-padding-top:40vh;
-line-height:5em;
+    padding-top: 40vh;
+    line-height: 5em;
 }
 
 .heroHeading {
-  margin: 0 !important;
-  font-size:3em;
+    margin: 0 !important;
+    font-size: 3em;
 }
 
 .heroSubheading {
-  font-size:1.5em;
-  text-align: center !important;
+    font-size: 1.5em;
+    text-align: center !important;
 }
 
 .tellMeMore {
-  background-color: #E04006;
-  padding: 1.5em 4em;
-  border-radius: 3em;
-  color: #fff;
+    background-color: #E04006;
+    padding: 1.5em 4em;
+    border-radius: 3em;
+    color: #fff;
 }
 
 #parallaxSection {
-  background-image: url("../img/IMG_0156.JPG");
+    background-image: url("../img/IMG_0156.JPG");
 }
 
 #parallaxCitySection {
-  background-image: url("../img/IMG_0154.JPG");
+    background-image: url("../img/IMG_0154.JPG");
 }
 
 .parallax {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 50vh;
-  color: #fff;
-  /*filter: saturate(.5);*/
-  text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    color: #fff;
+    /*filter: saturate(.5);*/
+    text-align: center;
 }
 
 .impactText {
-  margin-top: 10vh;
-  font-size: 4em;
+    margin-top: 10vh;
+    font-size: 4em;
 }
 
 nav {
@@ -90,93 +90,104 @@ nav {
 }
 
 .navbar-default {
-  margin: 0;
-  background-color:#F99F1A;
-  border: none;
-  color: #fff;
+    margin: 0;
+    background-color: #F99F1A;
+    border: none;
+    color: #fff;
 }
 
 .navbar-default, .navbar-nav>li>a {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .navbar-default, .navbar-brand, .navbar-transparent {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .navbar-transparent {
-  background-color: rgba(255, 255, 255, .25);
+    background-color: rgba(255, 255, 255, .25);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .icon-bar {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .textSection {
-  padding: 10vh 10em;
+    padding: 10vh 10em;
 }
 
 #heroSection {
-  padding: 0;
+    padding: 0;
 }
 
 .text-center {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 section {
-  min-height: 50vh;
-  padding: 10vh 0;
+    min-height: 50vh;
+    padding: 10vh 0;
 }
 
 .noPadding {
-  padding: 0 !important
+    padding: 0 !important
 }
 
 #courses {
-  min-height: 0;
+    min-height: 0;
 }
 
 .courseBox {
-  padding: 0 !important;
-  margin: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
+
 .courseBox a img {
-  width: 100%;
+    width: 100%;
 }
 
 #courses>.container-fluid {
-  padding: 0;
+    padding: 0;
 }
 
 .courseTextBox {
-  vertical-align: middle;
-  color: #fff;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  height: 100%;
+    vertical-align: middle;
+    color: #fff;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: all .35s;
+    background-color: rgba(50, 50, 50, 0.3);
+}
+
+.courseTextBox:hover {
+  background-color: rgba(50, 50, 50, 0.8);
   transition: all .35s;
 }
 
+.modal-dialog {
+    width: 95% !important;
+}
+
 #aboutUs {
-  background-color: #E04006;
-  color: #fff;
+    background-color: #E04006;
+    color: #fff;
 }
 
 .facultyImage {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 footer {
@@ -202,43 +213,42 @@ footer a {
 }
 
 #copyright {
-     position: absolute;
-     bottom: 0;
-     right: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .span12 {
-  text-align: center;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
-  body {
-    font-size: 14px;
-  }
-  .textSection {
-    padding: 10vh 2em;
-  }
-  .heroSubheading {
-    line-height: 2em;
-  }
-  section {
-    min-height: 0;
-  }
-  .heroText{
-    padding-top: 25vh;
-  }
-  .parallax {
-    background-attachment: scroll;
-  }
-
-  #copyright {
-    position: inherit;
-    margin-top: 15vh;
-  }
+    body {
+        font-size: 14px;
+    }
+    .textSection {
+        padding: 10vh 2em;
+    }
+    .heroSubheading {
+        line-height: 2em;
+    }
+    section {
+        min-height: 0;
+    }
+    .heroText {
+        padding-top: 25vh;
+    }
+    .parallax {
+        background-attachment: scroll;
+    }
+    #copyright {
+        position: inherit;
+        margin-top: 15vh;
+    }
 }
 
 @media (max-width: 320px) {
-  .impactText {
-    font-size: 3em;
-  }
+    .impactText {
+        font-size: 3em;
+    }
 }
