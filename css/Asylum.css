@@ -141,9 +141,17 @@ section {
   padding: 0 !important
 }
 
+#courses {
+  min-height: 0;
+}
+
 .courseBox {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.courseBox a img {
+  width: 100%;
 }
 
 #courses>.container-fluid {
@@ -151,8 +159,8 @@ section {
 }
 
 .courseTextBox {
+  vertical-align: middle;
   color: #fff;
-  opacity: ;
   display: block;
   position: absolute;
   bottom: 0;
