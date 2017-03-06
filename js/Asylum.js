@@ -40,12 +40,12 @@ $(document).ready(() => {
     $("#portfolioArtPaymentForm input[name='on4']").parent('td').hide();
     $("#portfolioArtPaymentForm select[name='os4']").hide();
 
-    $("#AnimationPaymentForm input[name='on7']").parent('td').hide();
-    $("#AnimationPaymentForm select[name='os7']").hide();
-    $("#AnimationPaymentForm input[name='on3']").parent('td').hide();
-    $("#AnimationPaymentForm select[name='os3']").hide();
-    $("#AnimationPaymentForm input[name='on4']").parent('td').hide();
-    $("#AnimationPaymentForm select[name='os4']").hide();
+    $("#animationPaymentForm input[name='on7']").parent('td').hide();
+    $("#animationPaymentForm select[name='os7']").hide();
+    $("#animationPaymentForm input[name='on3']").parent('td').hide();
+    $("#animationPaymentForm select[name='os3']").hide();
+    $("#animationPaymentForm input[name='on4']").parent('td').hide();
+    $("#animationPaymentForm select[name='os4']").hide();
 
     $("#lifeDrawingPaymentForm input[name='on7']").parent('td').hide();
     $("#lifeDrawingPaymentForm select[name='os7']").hide();
@@ -88,68 +88,68 @@ $(document).ready(() => {
         }
     });
 
-    $("#AnimationPaymentForm select[name='os0']").change(function() {
+    $("#animationPaymentForm select[name='os0']").change(function() {
 
-        if ($("#AnimationPaymentForm select[name='os0'] option:selected").index() === 0) {
-            $("#AnimationPaymentForm input[name='on7']").parent('td').hide();
-            $("#AnimationPaymentForm select[name='os7']").hide();
-            $("#AnimationPaymentForm input[name='on3']").parent('td').hide();
-            $("#AnimationPaymentForm select[name='os3']").hide();
-            $("#AnimationPaymentForm input[name='on4']").parent('td').hide();
-            $("#AnimationPaymentForm select[name='os4']").hide();
-        } else if ($("#AnimationPaymentForm select[name='os0'] option:selected").index() === 1) {
-            $("#AnimationPaymentForm input[name='on7']").parent('td').hide();
-            $("#AnimationPaymentForm select[name='os7']").hide();
-            $("#AnimationPaymentForm input[name='on3']").parent('td').show();
-            $("#AnimationPaymentForm select[name='os3']").show();
-            $("#AnimationPaymentForm input[name='on4']").parent('td').hide();
-            $("#AnimationPaymentForm select[name='os4']").hide();
-        } else if ($("#AnimationPaymentForm select[name='os0'] option:selected").index() === 2) {
-            $("#AnimationPaymentForm input[name='on7']").parent('td').hide();
-            $("#AnimationPaymentForm select[name='os7']").hide();
-            $("#AnimationPaymentForm input[name='on3']").parent('td').show();
-            $("#AnimationPaymentForm select[name='os3']").show();
-            $("#AnimationPaymentForm input[name='on4']").parent('td').show();
-            $("#AnimationPaymentForm select[name='os4']").show();
-        } else if ($("#AnimationPaymentForm select[name='os0'] option:selected").index() === 3) {
-            $("#AnimationPaymentForm input[name='on7']").parent('td').show();
-            $("#AnimationPaymentForm select[name='os7']").show();
-            $("#AnimationPaymentForm input[name='on3']").parent('td').show();
-            $("#AnimationPaymentForm select[name='os3']").show();
-            $("#AnimationPaymentForm input[name='on4']").parent('td').show();
-            $("#AnimationPaymentForm select[name='os4']").show();
+        if ($("#animationPaymentForm select[name='os0'] option:selected").index() === 0) {
+            $("#animationPaymentForm input[name='on7']").parent('td').hide();
+            $("#animationPaymentForm select[name='os7']").hide();
+            $("#animationPaymentForm input[name='on3']").parent('td').hide();
+            $("#animationPaymentForm select[name='os3']").hide();
+            $("#animationPaymentForm input[name='on4']").parent('td').hide();
+            $("#animationPaymentForm select[name='os4']").hide();
+        } else if ($("#animationPaymentForm select[name='os0'] option:selected").index() === 1) {
+            $("#animationPaymentForm input[name='on7']").parent('td').hide();
+            $("#animationPaymentForm select[name='os7']").hide();
+            $("#animationPaymentForm input[name='on3']").parent('td').show();
+            $("#animationPaymentForm select[name='os3']").show();
+            $("#animationPaymentForm input[name='on4']").parent('td').hide();
+            $("#animationPaymentForm select[name='os4']").hide();
+        } else if ($("#animationPaymentForm select[name='os0'] option:selected").index() === 2) {
+            $("#animationPaymentForm input[name='on7']").parent('td').hide();
+            $("#animationPaymentForm select[name='os7']").hide();
+            $("#animationPaymentForm input[name='on3']").parent('td').show();
+            $("#animationPaymentForm select[name='os3']").show();
+            $("#animationPaymentForm input[name='on4']").parent('td').show();
+            $("#animationPaymentForm select[name='os4']").show();
+        } else if ($("#animationPaymentForm select[name='os0'] option:selected").index() === 3) {
+            $("#animationPaymentForm input[name='on7']").parent('td').show();
+            $("#animationPaymentForm select[name='os7']").show();
+            $("#animationPaymentForm input[name='on3']").parent('td').show();
+            $("#animationPaymentForm select[name='os3']").show();
+            $("#animationPaymentForm input[name='on4']").parent('td').show();
+            $("#animationPaymentForm select[name='os4']").show();
         }
     });
 
     $("#lifeDrawingPaymentForm select[name='os0']").change(function() {
 
         if ($("#lifeDrawingPaymentForm select[name='os0'] option:selected").index() === 0) {
-            $("#lifeDrawingPaymentForm  input[name='on7']").parent('td').hide();
+            $("#lifeDrawingPaymentForm input[name='on7']").parent('td').hide();
             $("#lifeDrawingPaymentForm select[name='os7']").hide();
-            $("#lifeDrawingPaymentForm  input[name='on3']").parent('td').hide();
+            $("#lifeDrawingPaymentForm input[name='on3']").parent('td').hide();
             $("#lifeDrawingPaymentForm select[name='os3']").hide();
-            $("#lifeDrawingPaymentForm  input[name='on4']").parent('td').hide();
+            $("#lifeDrawingPaymentForm input[name='on4']").parent('td').hide();
             $("#lifeDrawingPaymentForm select[name='os4']").hide();
         } else if ($("#lifeDrawingPaymentForm select[name='os0'] option:selected").index() === 1) {
-            $("#lifeDrawingPaymentForm  input[name='on7']").parent('td').hide();
+            $("#lifeDrawingPaymentForm input[name='on7']").parent('td').hide();
             $("#lifeDrawingPaymentForm select[name='os7']").hide();
-            $("#lifeDrawingPaymentForm  input[name='on3']").parent('td').show();
+            $("#lifeDrawingPaymentForm input[name='on3']").parent('td').show();
             $("#lifeDrawingPaymentForm select[name='os3']").show();
-            $("#lifeDrawingPaymentForm  input[name='on4']").parent('td').hide();
+            $("#lifeDrawingPaymentForm input[name='on4']").parent('td').hide();
             $("#lifeDrawingPaymentForm select[name='os4']").hide();
         } else if ($("#lifeDrawingPaymentForm select[name='os0'] option:selected").index() === 2) {
-            $("#lifeDrawingPaymentForm  input[name='on7']").parent('td').hide();
+            $("#lifeDrawingPaymentForm input[name='on7']").parent('td').hide();
             $("#lifeDrawingPaymentForm select[name='os7']").hide();
-            $("#lifeDrawingPaymentForm  input[name='on3']").parent('td').show();
+            $("#lifeDrawingPaymentForm input[name='on3']").parent('td').show();
             $("#lifeDrawingPaymentForm select[name='os3']").show();
-            $("#lifeDrawingPaymentForm  input[name='on4']").parent('td').show();
+            $("#lifeDrawingPaymentForm input[name='on4']").parent('td').show();
             $("#lifeDrawingPaymentForm select[name='os4']").show();
         } else if ($("#lifeDrawingPaymentForm select[name='os0'] option:selected").index() === 3) {
-            $("#lifeDrawingPaymentForm  input[name='on7']").parent('td').show();
+            $("#lifeDrawingPaymentForm input[name='on7']").parent('td').show();
             $("#lifeDrawingPaymentForm select[name='os7']").show();
-            $("#lifeDrawingPaymentForm  input[name='on3']").parent('td').show();
+            $("#lifeDrawingPaymentForm input[name='on3']").parent('td').show();
             $("#lifeDrawingPaymentForm select[name='os3']").show();
-            $("#lifeDrawingPaymentForm  input[name='on4']").parent('td').show();
+            $("#lifeDrawingPaymentForm input[name='on4']").parent('td').show();
             $("#lifeDrawingPaymentForm select[name='os4']").show();
         }
     });
